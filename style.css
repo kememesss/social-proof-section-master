@@ -1,0 +1,197 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Fraunces:opsz,wght@9..144,700&family=Hanken+Grotesk:wght@500;700;800&family=Inter:wght@400;700&family=League+Spartan:wght@400;500;700&family=Lexend+Deca&family=Montserrat:wght@500;700&family=Outfit:wght@300;400;600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #808080;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    background-color: whitesmoke;
+    width: 1440px;
+    height: 800px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding-left: 140px;
+    padding-right: 140px;
+    position: relative;
+}
+
+.background {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.backgroundbot {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+.box {
+    width: 100%;
+    height: 50%;
+}
+
+.boxtop {
+    max-width: 100%;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 200px;
+}                                                                                     
+
+
+/* text */
+.products{
+    width:50%;
+}
+.productsright {
+    width:50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.starSpacing {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    gap:20px;
+    
+}
+.everything{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: first baseline;
+}
+
+.star1{
+    margin-right:480px;
+}
+
+.star2{
+    margin-right:240px;
+}
+
+.boxtop h2 {
+    color: hsl(300, 43%, 22%);
+    background-color: hsl(300, 24%, 96%);
+    margin-bottom: 20px;
+    width: 460px;
+    padding: 20px;
+    border-radius: 10px;
+    font-size: 20px;
+    font-family: 'League Spartan', sans-serif;
+    /* background-color: hsl(300, 24%, 96%); */
+}
+
+.boxtop h1 {
+    letter-spacing: -3px;
+    width: 460px;
+    color: hsl(300, 43%, 22%);
+}
+
+h1 {
+    font-size: 50px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
+    margin-bottom: 30px;
+}
+
+.boxtop p {
+    color: hsl(300, 43%, 22%);
+    font-family: 'Lexend Deca', sans-serif;
+    line-height: 20px;
+    margin-right: 50px;
+    font-size: 15px
+}
+
+.people {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.smithTop {
+    margin-bottom: 80px;
+}
+
+.ireneTop {
+    margin-bottom: 40px;
+}
+
+.allbox {
+    width: 351px;
+    height: 240px;
+    background-color: hsl(300, 43%, 22%);
+    border-radius: 10px;
+    color: white;
+    border: solid 1px black;
+}
+
+.quote {
+    margin: 40px;
+    font-family: 'Outfit', sans-serif;
+    line-height: 20px;
+    font-size: 15px;
+}
+
+.quote p {
+    margin-top: 30px;
+    line-height: 22px;
+}
+
+.quote h3 {
+    margin-left: 25px;
+    font-size: 15px;
+}
+
+b {
+    color: hsl(333, 80%, 67%);
+    font-weight: lighter;
+    font-size: 14px;
+}
+
+.picture {
+    display: flex;
+    flex-direction: row;
+    justify-content: first baseline;
+    align-items: center;
+}
+
+img {
+    border-radius: 100%;
+    width: 40px;
+}
+
+
+
+/* font-family: 'Big Shoulders Display', cursive;
+font-family: 'Fraunces', serif;
+font-family: 'Hanken Grotesk', sans-serif;
+font-family: 'Inter', sans-serif;
+font-family: 'League Spartan', sans-serif;
+font-family: 'Lexend Deca', sans-serif;
+font-family: 'Montserrat', sans-serif;
+font-family: 'Outfit', sans-serif; */
